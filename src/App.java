@@ -6,12 +6,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner ler = new Scanner(System.in);
         FileWriter escrever = new FileWriter("dados.txt", true);
-        // ArrayList usuariosCadastrados = new ArrayList<String>();
-
-        // usuariosCadastrados.add("oi");
-        // usuariosCadastrados.add("você");
-        // usuariosCadastrados.add("está");
-        // usuariosCadastrados.add("bem?");
 
         System.out.println("Quantos usuários quer cadastrar?");
         int nUsers = ler.nextInt();
@@ -32,7 +26,7 @@ public class App {
                     String dataNascimento = ler.nextLine();
                     System.out.println("Digite o email");
                     String email = ler.nextLine();
-                    System.out.println("Digite o cpf (xxx.xxx.xxx-xx)");
+                    System.out.println("Digite o cpf (xxx.xxx.xxx-xx)\n");
                     String cpf = ler.nextLine();
                     
                     usuarios[i][0] = nome;
